@@ -34,13 +34,14 @@
     * Access control
     * Encrypt data
     * Almost anything else
+    
+### WHAT CAN YOU BUILD WITH PHP?
 
-### WHAT CAN YOU BUILD WITH PHP?
-_ Basic Website
-_ Blog Type Website
-_ Shopping Carts
-_ Social Networks
-_ Content Management Systems
-_ Membership Websites
-_ Search Engines
-_ Backend APIs
+_Basic Website_\
+_Blog Type Website_\
+_Shopping Carts_\
+_Social Networks_\
+_Content Management Systems_\
+_Membership Websites_\
+_Search Engines_\
+_Backend APIs_
