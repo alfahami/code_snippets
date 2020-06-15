@@ -54,7 +54,8 @@ class Users extends Controller {
             if (empty($data['confirm_password'])) {
                 $data['confirm_password_error'] = 'Please confirm password';
             } else {
-                if ($data['password'] != $data['confirm_password']) {
+//                not identical (001234567 != 1234567 would pass, while it shouldn't)
+                if ($data['password'] !== $data['confirm_password']) {
                     $data['confirm_password_error'] = 'Passwords do not match';
                 }
             }
